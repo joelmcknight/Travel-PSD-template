@@ -1,0 +1,1390 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.navWrapper {
+  height: 190px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.navWrapper ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  list-style: none;
+}
+
+div.navWrapper ul li {
+  font-size: 10px;
+  margin: 10px 12px;
+}
+
+div.navWrapper ul li a {
+  color: white;
+}
+
+div.navWrapper ul li a:hover {
+  color: turquoise;
+}
+
+div.navWrapper div {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.titleWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  height: 650px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+div.titleWrapper div.weather {
+  background: rgba(83, 83, 83, 0.3);
+  height: 50px;
+  width: 100px;
+  margin: 90px auto 36px auto;
+}
+
+div.titleWrapper h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+div.titleWrapper p {
+  font-size: 10px;
+  line-height: 26px;
+  margin: 20px 0 35px 0;
+}
+
+div.titleWrapper button {
+  width: 170px;
+  height: 50px;
+  background: turquoise;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.titleWrapper button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+div.titleWrapper button img {
+  margin-left: 10px;
+}
+
+div.titleWrapper button h4 {
+  margin: auto;
+}
+
+.radioButtonWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  max-width: 440px;
+  border-top: 0.5px solid rgba(211, 211, 211, 0.2);
+  border-left: 0.5px solid rgba(211, 211, 211, 0.2);
+}
+
+.radioButtonWrapper .radioButtonFriend {
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border-right: 0.5px solid rgba(211, 211, 211, 0.2);
+}
+
+.radioButtonWrapper .radioButtonFriend:nth-of-type(3) {
+  text-align: center;
+}
+
+.headerSearch {
+  background: rgba(0, 0, 0, 0.2);
+  height: 219px;
+}
+
+.headerSearch form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: auto;
+  width: 85%;
+  height: 100%;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerSearch form div {
+  margin: 10px;
+}
+
+.headerSearch form div:nth-of-type(4) {
+  margin-left: 10px;
+}
+
+.headerSearch form div:nth-of-type(1) input {
+  width: 250px;
+}
+
+.headerSearch form div:nth-of-type(2) input {
+  width: 150px;
+}
+
+.headerSearch form div:nth-of-type(3) input {
+  width: 150px;
+}
+
+.headerSearch form div select {
+  width: 70px;
+  font-size: 10px;
+  color: lightgrey;
+  background: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.headerSearch form div h5 {
+  font-size: 12px;
+  margin-bottom: 40px;
+  color: lightgrey;
+}
+
+.headerSearch form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.headerSearch button {
+  background: #4ae5d1;
+  width: 140px;
+  height: 50px;
+  background: turquoise;
+  color: white;
+  padding: 15px 5px 10px 9px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+}
+
+.headerSearch button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.headerSearch button img {
+  float: left;
+  padding-left: 9px;
+}
+
+.seaTours .seaToursText {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seaTours .seaToursText h2 {
+  letter-spacing: 8px;
+}
+
+.seaTours .seaToursText p {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.seaTours .toursWrapper {
+  height: 610px;
+  max-width: 960px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.seaTours .toursWrapper .tour-sixths {
+  height: 285px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px 10px 0 10px;
+  position: relative;
+}
+
+.seaTours .toursWrapper .tour-sixths:hover div.overlay {
+  display: block;
+}
+
+.seaTours .toursWrapper .tour-sixths div.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: none;
+  z-index: 100;
+}
+
+.seaTours .toursWrapper .tour-sixths:hover h3 {
+  color: turquoise;
+}
+
+.seaTours .toursWrapper .tour-sixths:hover button {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.seaTours .toursWrapper .tour-sixths h3 {
+  margin: 60px 0 15px 0;
+  color: white;
+  text-align: center;
+}
+
+.seaTours .toursWrapper .tour-sixths img {
+  display: block;
+  margin: 0 auto;
+}
+
+.seaTours .toursWrapper .tour-sixths h4 {
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+.seaTours .toursWrapper .tour-sixths h4 span {
+  font-weight: 300;
+}
+
+.seaTours .toursWrapper .tour-sixths div {
+  float: left;
+  color: lightgrey;
+  font-size: 10px;
+  margin: 60px 20px 20px 15px;
+}
+
+.seaTours .toursWrapper .tour-sixths div p {
+  margin: 10px 0 0 0;
+}
+
+.seaTours .toursWrapper .tour-sixths div p span {
+  color: white;
+}
+
+.seaTours .toursWrapper .tour-sixths div p img {
+  float: left;
+  margin-right: 5px;
+  color: white;
+}
+
+.seaTours .toursWrapper .tour-sixths button {
+  float: left;
+  background: #4ae5d1;
+  width: 110px;
+  height: 40px;
+  background: turquoise;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 70px 0 0 0;
+}
+
+.seaTours .toursWrapper .tour-sixths button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.seaTours .toursWrapper .tour-sixths button img {
+  float: left;
+  padding-left: 8px;
+}
+
+.seaTours .toursWrapper .tour1 {
+  background: url(../assets/tour-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seaTours .toursWrapper .tour2 {
+  background: url(../assets/tour-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seaTours .toursWrapper .tour3 {
+  background: url(../assets/tour-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seaTours .toursWrapper .tour4 {
+  background: url(../assets/tour-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seaTours .toursWrapper .tour5 {
+  background: url(../assets/tour-5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seaTours .toursWrapper .tour6 {
+  background: url(../assets/tour-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  height: 300px;
+  background: lightgrey;
+}
+
+.banner .cell1 {
+  background-image: url("../assets/banner.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+.banner .cell1 .cell1Text {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+  margin: 80px auto;
+  color: white;
+  text-align: center;
+}
+
+.banner .cell1 .cell1Text h4 {
+  margin-bottom: 20px;
+}
+
+.banner .cell1 .cell1Text img {
+  width: 90px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.banner .cell1 .cell1Text h2 {
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+.banner .cell1 .cell1Text p {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.carousel .flickity-page-dots {
+  bottom: 15px;
+}
+
+.carousel .flickity-page-dots .dot {
+  background: white;
+}
+
+.carousel-cell {
+  width: 100%;
+  /* full width */
+  height: 300px;
+  /* height of carousel */
+  margin-right: 10px;
+}
+
+.specialOffers {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 600px;
+  width: 60%;
+  margin: 100px auto 0 auto;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.specialOffers h2 {
+  letter-spacing: 8px;
+}
+
+.specialOffers p {
+  font-size: 12px;
+  padding: 20px 0 50px 0;
+}
+
+.specialOffers .specialWrapper {
+  height: 400px;
+  max-width: 960px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.specialOffers .specialWrapper .tour-thirds {
+  height: 350px;
+  width: 300px;
+  border-radius: 5px;
+  background: royalblue;
+  color: white;
+  margin: 10px 10px 0 10px;
+  position: relative;
+}
+
+.specialOffers .specialWrapper .tour-thirds:hover h3 {
+  color: turquoise;
+}
+
+.specialOffers .specialWrapper .tour-thirds:hover button {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.specialOffers .specialWrapper .tour-thirds:hover div.overlay {
+  display: block;
+}
+
+.specialOffers .specialWrapper .tour-thirds div.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: none;
+  z-index: 100;
+}
+
+.specialOffers .specialWrapper .tour-thirds .specialContent {
+  float: left;
+  padding: 20px;
+}
+
+.specialOffers .specialWrapper .tour-thirds .specialContent img {
+  padding-left: 2px;
+  width: 83px;
+}
+
+.specialOffers .specialWrapper .tour-thirds .specialContent h3 {
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.specialOffers .specialWrapper .tour-thirds .specialInfo {
+  clear: both;
+  margin: auto;
+  padding: 110px 0 0 0;
+  width: 90%;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.specialOffers .specialWrapper .tour-thirds .specialInfo h5 {
+  font-size: 10px;
+  padding-top: 6px;
+}
+
+.specialOffers .specialWrapper .tour-thirds p {
+  color: #d3d3d3;
+  padding: 20px 0;
+  text-align: left;
+  font-size: 11px;
+  line-height: 20px;
+  margin: 0 21px;
+}
+
+.specialOffers .specialWrapper .specialTour1 {
+  background-image: url("../assets/greece.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.specialOffers .specialWrapper .specialTour2 {
+  background-image: url("../assets/china.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.specialOffers .specialWrapper .specialTour3 {
+  background-image: url("../assets/canada.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.tour-thirds button {
+  float: left;
+  width: 95px;
+  height: 35px;
+  background: turquoise;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0 0 20px;
+}
+
+.tour-thirds button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.popular {
+  height: 1000px;
+}
+
+.popular h2 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 7px;
+}
+
+.popular p {
+  text-align: center;
+  padding: 20px 0 70px 0;
+  color: #d3d3d3;
+}
+
+.popular .popularWrapper {
+  margin: 0 auto;
+  height: 360px;
+  max-width: 90%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.popular .popularWrapper .popularCountries, .popular .popularWrapper .popularCountries2 {
+  width: 50%;
+  min-width: 558px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters, .popular .popularWrapper .popularCountries2 .tourQuarters {
+  width: 230px;
+  height: 160px;
+  color: white;
+  margin: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters:hover h4, .popular .popularWrapper .popularCountries2 .tourQuarters:hover h4 {
+  color: turquoise;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters:hover button, .popular .popularWrapper .popularCountries2 .tourQuarters:hover button {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters:hover div.overlay, .popular .popularWrapper .popularCountries2 .tourQuarters:hover div.overlay {
+  display: block;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters div.overlay, .popular .popularWrapper .popularCountries2 .tourQuarters div.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: none;
+  z-index: 100;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters h4, .popular .popularWrapper .popularCountries2 .tourQuarters h4 {
+  margin: 100px 0 10px 20px;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters h5, .popular .popularWrapper .popularCountries2 .tourQuarters h5 {
+  margin-left: 20px;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters h5 span, .popular .popularWrapper .popularCountries2 .tourQuarters h5 span {
+  color: turquoise;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters:hover h5, .popular .popularWrapper .popularCountries2 .tourQuarters:hover h5 {
+  color: turquoise;
+}
+
+.popular .popularWrapper .popularCountries .tourQuarters:hover h5 span, .popular .popularWrapper .popularCountries2 .tourQuarters:hover h5 span {
+  color: white;
+}
+
+.popular .popularWrapper .popInfo1, .popular .popularWrapper .popInfo2 {
+  width: 50%;
+  min-width: 558px;
+  background: url("../assets/italymap.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.popular .popularWrapper .popInfo1 p, .popular .popularWrapper .popInfo2 p {
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+  color: #d3d3d3;
+}
+
+.popular .popularWrapper .popInfo1 ul, .popular .popularWrapper .popInfo2 ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 30px 30px 20px 20px;
+}
+
+.popular .popularWrapper .popInfo1 ul li, .popular .popularWrapper .popInfo2 ul li {
+  font-size: 12px;
+  color: #d3d3d3;
+  width: 60px;
+  line-height: 20px;
+}
+
+.popular .popularWrapper .popInfo1 button, .popular .popularWrapper .popInfo2 button {
+  width: 150px;
+  height: 50px;
+  background: turquoise;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popular .popularWrapper .popInfo1 button img, .popular .popularWrapper .popInfo2 button img {
+  margin-left: 10px;
+}
+
+.popular .popularWrapper .popInfo2 {
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+  text-align: right;
+  background: url("../assets/francemap.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.popular .popularWrapper .popInfo2 p {
+  text-align: right;
+}
+
+.popular .popularWrapper .popInfo2 ul {
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 0;
+}
+
+.popular .popularWrapper .popInfo2 button {
+  width: 150px;
+  height: 50px;
+  margin: 0 0 0 72.7%;
+}
+
+.popular .popwrap2 {
+  margin-top: 70px;
+}
+
+.popular .popCountryTile1 {
+  background: url("../assets/italy-small.jpg");
+}
+
+.popular .popCountryTile2 {
+  background: url("../assets/italy-small4.jpg");
+}
+
+.popular .popCountryTile3 {
+  background: url("../assets/italy-small2.jpg");
+}
+
+.popular .popCountryTile4 {
+  background: url("../assets/italy-small3.jpg");
+}
+
+.popular .popCountryTile5 {
+  background: url("../assets/francesmall1.jpg");
+}
+
+.popular .popCountryTile6 {
+  background: url("../assets/francesmall2.jpg");
+}
+
+.popular .popCountryTile7 {
+  background: url("../assets/francesmall3.jpg");
+}
+
+.popular .popCountryTile8 {
+  background: url("../assets/francesmall4.jpg");
+}
+
+.preFooter {
+  background: #222222;
+  color: white;
+}
+
+.preFooterWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.preFooterWrapper h5 {
+  font-size: 11px;
+}
+
+.preFooterWrapper .footerLogo {
+  width: 300px;
+}
+
+.preFooterWrapper .footerTours {
+  width: 133px;
+}
+
+.preFooterWrapper .footerTours ul {
+  height: 150px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.preFooterWrapper .footerTours ul li {
+  line-height: 30px;
+  list-style: none;
+  font-size: 10px;
+  color: #d3d3d3;
+}
+
+.preFooterWrapper .footerTours ul li a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.preFooterWrapper .footerTours ul li a:hover {
+  color: turquoise;
+}
+
+.preFooterWrapper .footerCountries {
+  width: 133px;
+}
+
+.preFooterWrapper .footerCountries ul {
+  height: 150px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.preFooterWrapper .footerCountries ul li {
+  line-height: 30px;
+  list-style: none;
+  font-size: 10px;
+  color: #d3d3d3;
+}
+
+.preFooterWrapper .footerCountries ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.preFooterWrapper .footerCountries ul li a:hover {
+  color: turquoise;
+}
+
+.preFooterWrapper .followUs {
+  width: 133px;
+}
+
+.preFooterWrapper .followUs h5 {
+  padding-bottom: 15px;
+}
+
+.preFooterWrapper .followUs .socialMedia {
+  height: 25px;
+  width: 100px;
+  background: blue;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.preFooterWrapper .followUs .socialMedia .fa {
+  float: left;
+  padding: 6px;
+  font-size: 13px;
+}
+
+.preFooterWrapper .followUs .socialMedia p {
+  font-size: 10px;
+  float: left;
+  color: #d3d3d3;
+  padding: 7px 7px 7px 0;
+}
+
+.preFooterWrapper .followUs .socialMedia .whiteBox {
+  height: 25px;
+  width: 25px;
+  background: white;
+  border-radius: 5px;
+  float: right;
+}
+
+.preFooterWrapper .followUs .socialMedia .whiteBox p {
+  padding-left: 7px;
+  color: black;
+}
+
+.preFooterWrapper .followUs .socialMedia .facebook {
+  border-radius: 5px;
+  height: 100%;
+  background: #3b5998;
+}
+
+.preFooterWrapper .followUs .socialMedia .twitter {
+  background: #00abf1;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.preFooterWrapper .followUs .socialMedia .google {
+  background: #d0422a;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.preFooterWrapper .followUs .socialMedia .pinterest {
+  border-radius: 5px;
+  background: #cc2127;
+  height: 100%;
+}
+
+.preFooterWrapper .subscribe {
+  width: 300px;
+}
+
+.preFooterWrapper .subscribe h5 {
+  text-align: center;
+}
+
+.preFooterWrapper .subscribe input {
+  width: 220px;
+  margin: 10px auto;
+  display: block;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 15px;
+}
+
+.preFooterWrapper .subscribe button {
+  width: 220px;
+  height: 40px;
+  background: turquoise;
+  text-align: center;
+  color: white;
+  padding: 5px 5px 5px 90px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.preFooterWrapper .subscribe button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+footer {
+  background: #141414;
+}
+
+footer .footerWrapper {
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerWrapper ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .footerWrapper ul li {
+  font-size: 12px;
+  margin: 0 10px;
+  color: white;
+}
+
+footer .footerWrapper ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+footer .footerWrapper ul li a:hover {
+  color: turquoise;
+}
+
+footer .footerWrapper p {
+  font-size: 10px;
+  color: #d3d3d3;
+}
+
+button:hover {
+  border: 1px solid turquoise;
+  background: none;
+}
+
+@media (max-width: 1276px) {
+  .popular {
+    height: 800px;
+  }
+  .popular .popularWrapper .popularCountries {
+    margin: auto;
+  }
+  .popular .popwrap2 {
+    display: none;
+  }
+  .popInfo1 {
+    margin: auto;
+    text-align: center;
+  }
+  .popInfo1 h4, .popInfo1 ul, .popInfo1 li {
+    display: none;
+  }
+  .popular .popularWrapper .popInfo1 p {
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .popInfo1 button {
+    margin: 0 auto;
+  }
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 975px) {
+  .seaTours .toursWrapper {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .seaTours .toursWrapper .tour5, .seaTours .toursWrapper .tour6 {
+    display: none;
+  }
+  .specialTour3 {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  header .titleWrapper, header .headerSearch {
+    display: none;
+  }
+  .radioButtonWrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .seaTours {
+    height: 1310px;
+  }
+  .popular {
+    height: 600px;
+  }
+  .specialOffers .specialWrapper .specialTour2,
+  .specialOffers .specialWrapper .specialTour2 {
+    display: none;
+  }
+  .popular .popCountryTile4, .popular .popCountryTile3 {
+    display: none;
+  }
+  .popular .popularWrapper .popularCountries, .popular .popularWrapper .popInfo1 {
+    min-width: 0;
+  }
+  .popular .popularWrapper .popularCountries button, .popular .popularWrapper .popInfo1 button {
+    width: 150px;
+    height: 50px .popular .popularWrapper .popularCountries button, .popular .popularWrapper .popInfo1 button;
+  }
+  .popular .popularWrapper .popularCountries button :hover, .popular .popularWrapper .popInfo1 button :hover {
+    border: 1px solid turquoise;
+    background: none;
+  }
+  .preFooterWrapper {
+    text-align: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .preFooterWrapper .followUs h5 {
+    padding-top: 10px;
+  }
+  .preFooterWrapper .followUs .socialMedia {
+    margin: 5px auto;
+  }
+  .preFooterWrapper .subscribe {
+    padding-top: 10px;
+  }
+  footer .footerWrapper ul li {
+    margin: 0 5px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
